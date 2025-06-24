@@ -1,0 +1,7 @@
+*.swp
+botiga
+hello
+hello.o
+
+crt0.o
+examples/hello_c/hello.s
