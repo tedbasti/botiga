@@ -7,5 +7,4 @@ in:
   lda hello,y	;a=hello+y
   bne loop		;if(hello+y!=0) {goto loop}
   rts			;return/quit
-hello: .byte "Hello World!"
-       .byte 13,10,0
+hello: .byte "Hello World!",0
