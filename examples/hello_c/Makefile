@@ -1,5 +1,5 @@
 hello: hello.o crt0.o
-	ld65 -C ../../botiga.cfg -o hello hello.o crt0.o
+	ld65 -C ../botiga.cfg -o hello hello.o crt0.o
 
 crt0.o: crt0.s
 	ca65 --cpu 6502 crt0.s
